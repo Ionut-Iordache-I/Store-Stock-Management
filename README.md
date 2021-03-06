@@ -1,0 +1,2 @@
+# Store-Stock-Management
+A program that can manage the stocks of a store that offers the possibility to add discounts on products and interpret the data for a pleasant user experience. The data is read using CSV files. It implements a series of basic design patterns and respects the principles of OOP. The console with commands offers the possibility of preferential selection of the actions that take place on the store.
