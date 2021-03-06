@@ -1,0 +1,16 @@
+loadcsv amazon_co-ecommerce_cleaned.csv
+addcurrency GBP £ 1.10
+addcurrency CHF CHF 1.08
+listcurrencies
+setstorecurrency CHF
+getstorecurrency
+listproducts
+showproduct eac7efa5dbd3d667f26eb3d3ab504464
+addcurrency CAD $ 1.55
+showproduct eac7efa5dbd3d667f26eb3d3ab504462
+setstorecurrency CAD
+listcurrencies
+showproduct 5962c0a2623129d656aac1ee19239dcb
+savecsv rulare2-output.csv
+exit
+exit

@@ -1,0 +1,30 @@
+loadcsv amazon_co-ecommerce_cleaned.csv
+listproductsbymanufacturarer Hornby
+listdiscounts
+showproduct 9736294cd697539a88eeb851dfdd2771
+addiscount PERCENTAGE 30 "30% Black Friday"
+addiscount FIXED 15 "15% WeekendSales"
+applydiscount PERCENTAGE 30
+listdiscounts
+calculatetotal eac7efa5dbd3d667f26eb3d3ab504464 e12b92dbb8eaee78b22965d2a9bbbd9f
+calculatetotal 0c99ecefabf3ec25d4fae53d0646fb3b cf75a470360f08eaac9e4d9882999cee 44d6967f083825a5de36ad4865a65bcd
+addcurrency CAD $ 1.55
+setstorecurrency CAD
+listproducts
+showproduct 44d6967f083825a5de36ad4865a65bcd
+listcurrencies
+addcurrency GBP £ 1.10
+listcurrencies
+setstorecurrency GBP
+getstorecurrency
+updateparity GBP 1.09
+listproducts
+showproduct 44d6967f083825a5de36ad4865a65bcd
+listcurrencies
+addcurrency CAD $ 1.55
+setstorecurrency CAD
+listproducts
+showproduct 44d6967f083825a5de36ad4865a65bcd
+
+savecsv rulare4-output.csv
+quit

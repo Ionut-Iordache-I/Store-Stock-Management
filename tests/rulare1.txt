@@ -1,0 +1,10 @@
+loadcsv amazon_co-ecommerce_cleaned.csv
+listcurrencies
+addcurrency GBP £ 1.10
+listcurrencies
+setstorecurrency GBP
+getstorecurrency
+updateparity GBP 1.09
+listcurrencies
+savecsv rulare1-output.csv
+exit
